@@ -1,0 +1,23 @@
+.watch{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    .back .link{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: black;
+        z-index: 2;
+        cursor: pointer;
+    }
+    video{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
